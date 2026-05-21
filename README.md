@@ -144,3 +144,7 @@ This service stores only metadata, but it is enough to support downstream metric
 - potential AI-assist proxies such as increased PR throughput, review frequency, branch churn, or bot-heavy automation interactions
 
 The service deliberately avoids storing code, diffs, PR text, and comment text, which reduces privacy and IP exposure while still preserving operational signals.
+
+## Validation Note
+
+This repository is used to generate safe webhook test traffic for the GitHub connector POC.
