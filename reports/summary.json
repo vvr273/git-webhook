@@ -1,17 +1,18 @@
 {
-    "total_events": 4,
+    "total_events": 8,
     "events_by_type": {
         "ping": 2,
-        "push": 2
+        "pull_request": 2,
+        "push": 4
     },
     "events_by_repository": {
         "vvr273/blogging_backend": 1,
-        "vvr273/git-webhook": 3
+        "vvr273/git-webhook": 7
     },
     "bot_events": 0,
-    "human_events": 4,
-    "pull_requests_opened": 0,
-    "pull_requests_merged": 0,
-    "pushes": 2,
+    "human_events": 8,
+    "pull_requests_opened": 1,
+    "pull_requests_merged": 1,
+    "pushes": 4,
     "workflow_runs_completed": 0
 }
