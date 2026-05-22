@@ -1,0 +1,14 @@
+{
+  "total_events": 3,
+  "events_by_type": { "ping": 2, "push": 1 },
+  "events_by_repository": {
+    "vvr273/blogging_backend": 1,
+    "vvr273/git-webhook": 2
+  },
+  "bot_events": 0,
+  "human_events": 3,
+  "pull_requests_opened": 0,
+  "pull_requests_merged": 0,
+  "pushes": 1,
+  "workflow_runs_completed": 0
+}
