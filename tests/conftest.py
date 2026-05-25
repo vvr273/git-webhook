@@ -6,10 +6,10 @@ from collections.abc import Callable, Generator
 import pytest
 from fastapi.testclient import TestClient
 
-from app.config import get_settings
-from app.database import get_engine
+from app.core.config import get_settings
+from app.db.base import Base
+from app.db.database import get_engine
 from app.main import app
-from app.models import Base
 
 
 @pytest.fixture(autouse=True)
