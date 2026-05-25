@@ -1,6 +1,6 @@
 import json
 
-from app.bot_detection import is_bot_actor
+from app.integrations.github.bot_detection import is_bot_actor
 
 
 def _post_github_event(client, payload: dict, event_type: str, delivery_id: str, signature: str):
